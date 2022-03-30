@@ -1,0 +1,187 @@
+{
+	"archive" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/machine:X86",
+				"role" : "flags"
+			}
+		]
+	},
+	"artifacts" : 
+	[
+		{
+			"path" : "Evaluation/evaluation.lib"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"Evaluation/CMakeLists.txt",
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 7,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 15,
+				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 48,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 53,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 60,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 67,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 68,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 3,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MD /Zi /O2 /Ob1 /DNDEBUG  "
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 4,
+					"path" : "C:/Users/brume/Documents/Project/Cplusplus/ExternalLibraries/eigen-3.3.9"
+				},
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/brume/Documents/Project/Cplusplus/ExternalLibraries/boost_1_75_0"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/brume/Documents/Project/Cplusplus/ExternalLibraries/gsl_2.4/include"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_86/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_86/Lib/site-packages/numpy/core/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Users/brume/Documents/Project/CMAKE_APP/Evaluation/../Shared"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "modules::@a5a0faf7a4ef51a63049"
+		}
+	],
+	"id" : "evaluation::@bad0d7183a304c7df7d7",
+	"name" : "evaluation",
+	"nameOnDisk" : "evaluation.lib",
+	"paths" : 
+	{
+		"build" : "Evaluation",
+		"source" : "Evaluation"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Evaluation/pch.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Evaluation/_evaluationTest.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "Evaluation/evaluationSystem.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

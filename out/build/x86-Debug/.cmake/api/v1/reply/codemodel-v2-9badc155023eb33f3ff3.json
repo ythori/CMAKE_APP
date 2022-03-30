@@ -1,0 +1,350 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "Shared",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Shared",
+					"targetIndexes" : 
+					[
+						7
+					]
+				},
+				{
+					"build" : "_CreateTemplate",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "_CreateTemplate",
+					"targetIndexes" : 
+					[
+						1
+					]
+				},
+				{
+					"build" : "ProbabilityFunctions",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ProbabilityFunctions",
+					"targetIndexes" : 
+					[
+						10
+					]
+				},
+				{
+					"build" : "MIDIModules",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MIDIModules",
+					"targetIndexes" : 
+					[
+						6
+					]
+				},
+				{
+					"build" : "DTW",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "DTW",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "PythonMadmom",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "PythonMadmom",
+					"targetIndexes" : 
+					[
+						5
+					]
+				},
+				{
+					"build" : "Evaluation",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "Evaluation",
+					"targetIndexes" : 
+					[
+						4
+					]
+				},
+				{
+					"build" : "CrestMuseProcessor",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "CrestMuseProcessor",
+					"targetIndexes" : 
+					[
+						2
+					]
+				},
+				{
+					"build" : "ScoreFollowing",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ScoreFollowing",
+					"targetIndexes" : 
+					[
+						11
+					]
+				},
+				{
+					"build" : "ParticleFilter",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "ParticleFilter",
+					"targetIndexes" : 
+					[
+						9
+					]
+				},
+				{
+					"build" : "TempoEstimation",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "TempoEstimation",
+					"targetIndexes" : 
+					[
+						12
+					]
+				},
+				{
+					"build" : "MusicPreciseAnalysis",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.7"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "MusicPreciseAnalysis",
+					"targetIndexes" : 
+					[
+						8
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					],
+					"name" : "C",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Test::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Test-Debug-f1993afcbbfaa38261d3.json",
+					"name" : "Test",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "createtemplate::@ec7c789e2a5916dcdf77",
+					"jsonFile" : "target-createtemplate-Debug-1a9b1f6a103b785f0828.json",
+					"name" : "createtemplate",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "crestmuse::@ecb13430421c02efa484",
+					"jsonFile" : "target-crestmuse-Debug-a91fb1f58098be2aae11.json",
+					"name" : "crestmuse",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "dtw::@e269b266410da6082cde",
+					"jsonFile" : "target-dtw-Debug-121aed63c67f635fe549.json",
+					"name" : "dtw",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "evaluation::@bad0d7183a304c7df7d7",
+					"jsonFile" : "target-evaluation-Debug-002b86f833a1a3c85f32.json",
+					"name" : "evaluation",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 6,
+					"id" : "madmom::@e7cb4d91c75e0ada0f0e",
+					"jsonFile" : "target-madmom-Debug-800a325847a490fd1dd9.json",
+					"name" : "madmom",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "midi::@e7b949aa942b1cc223b0",
+					"jsonFile" : "target-midi-Debug-ba0182281a47a058974b.json",
+					"name" : "midi",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "modules::@a5a0faf7a4ef51a63049",
+					"jsonFile" : "target-modules-Debug-c82c77d18cc75f8acae0.json",
+					"name" : "modules",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 12,
+					"id" : "musicpreciseanalysis::@1a5f9393c2c76526f0a3",
+					"jsonFile" : "target-musicpreciseanalysis-Debug-9cb99ebd9beeb6b809c8.json",
+					"name" : "musicpreciseanalysis",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 10,
+					"id" : "particlefilter::@6ea5f7b52f11d28e08c2",
+					"jsonFile" : "target-particlefilter-Debug-2b0b4a16265e583becc7.json",
+					"name" : "particlefilter",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "probabilityfunctions::@f096d268eb1bf8f01e7c",
+					"jsonFile" : "target-probabilityfunctions-Debug-9e94ddda771e136bc260.json",
+					"name" : "probabilityfunctions",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "scorefollowing::@0b5ff5496b9693db017a",
+					"jsonFile" : "target-scorefollowing-Debug-51f575b33a24ceccc989.json",
+					"name" : "scorefollowing",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "tempoestimation::@8d349916a6ca4d36a6e0",
+					"jsonFile" : "target-tempoestimation-Debug-034c93ee36c80771eb5d.json",
+					"name" : "tempoestimation",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/brume/Documents/Project/CMAKE_APP/out/build/x86-Debug",
+		"source" : "C:/Users/brume/Documents/Project/CMAKE_APP"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}
