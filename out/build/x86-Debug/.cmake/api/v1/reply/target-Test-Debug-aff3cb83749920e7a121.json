@@ -1,0 +1,349 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "Test.exe"
+		},
+		{
+			"path" : "Test.pdb"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"link_directories",
+			"target_link_libraries",
+			"include_directories"
+		],
+		"files" : 
+		[
+			"CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 90,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 55,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 71,
+				"parent" : 0
+			},
+			{
+				"command" : 2,
+				"file" : 0,
+				"line" : 91,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 48,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 53,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 60,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 67,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 68,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1  "
+				},
+				{
+					"fragment" : "-std:c++14"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "C:/Users/brume/Documents/Project/Cplusplus/ExternalLibraries/eigen-3.3.9"
+				},
+				{
+					"backtrace" : 6,
+					"path" : "C:/Users/brume/Documents/Project/Cplusplus/ExternalLibraries/boost_1_75_0"
+				},
+				{
+					"backtrace" : 7,
+					"path" : "C:/Users/brume/Documents/Project/Cplusplus/ExternalLibraries/gsl_2.4/include"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_86/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "C:/Program Files (x86)/Microsoft Visual Studio/Shared/Python37_86/Lib/site-packages/numpy/core/include"
+				}
+			],
+			"language" : "CXX",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 4,
+			"id" : "modules::@a5a0faf7a4ef51a63049"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "createtemplate::@ec7c789e2a5916dcdf77"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "probabilityfunctions::@f096d268eb1bf8f01e7c"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "midi::@e7b949aa942b1cc223b0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "dtw::@e269b266410da6082cde"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "crestmuse::@ecb13430421c02efa484"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "madmom::@e7cb4d91c75e0ada0f0e"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "evaluation::@bad0d7183a304c7df7d7"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "scorefollowing::@0b5ff5496b9693db017a"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "tempoestimation::@8d349916a6ca4d36a6e0"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "musicpreciseanalysis::@1a5f9393c2c76526f0a3"
+		},
+		{
+			"backtrace" : 4,
+			"id" : "particlefilter::@6ea5f7b52f11d28e08c2"
+		}
+	],
+	"id" : "Test::@6890427a1f51a3e7e1df",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "/DWIN32 /D_WINDOWS /W3 /GR /EHsc /MDd /Zi /Ob0 /Od /RTC1",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "/machine:X86 /debug /INCREMENTAL /subsystem:console",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-LIBPATH:C:\\Users\\brume\\Documents\\Project\\Cplusplus\\ExternalLibraries\\boost_1_75_0\\stage\\x86\\lib",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 3,
+				"fragment" : "-LIBPATH:C:\\PROGRA~2\\MICROS~2\\Shared\\PYTHON~2\\libs",
+				"role" : "libraryPath"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "Shared\\modules.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "_CreateTemplate\\createtemplate.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "ProbabilityFunctions\\probabilityfunctions.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "MIDIModules\\midi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "DTW\\dtw.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "PythonMadmom\\madmom.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "Evaluation\\evaluation.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "CrestMuseProcessor\\crestmuse.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "ScoreFollowing\\scorefollowing.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "ParticleFilter\\particlefilter.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "TempoEstimation\\tempoestimation.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "MusicPreciseAnalysis\\musicpreciseanalysis.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "ScoreFollowing\\scorefollowing.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "PythonMadmom\\madmom.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "CrestMuseProcessor\\crestmuse.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "MIDIModules\\midi.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "DTW\\dtw.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "TempoEstimation\\tempoestimation.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "ParticleFilter\\particlefilter.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "ProbabilityFunctions\\probabilityfunctions.lib",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 4,
+				"fragment" : "Shared\\modules.lib",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.27.29110\\atlmfc\\lib\\x86\\cblas.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.27.29110\\atlmfc\\lib\\x86\\gsl.lib\"",
+				"role" : "libraries"
+			},
+			{
+				"fragment" : "kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "Test",
+	"nameOnDisk" : "Test.exe",
+	"paths" : 
+	{
+		"build" : ".",
+		"source" : "."
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "_Execution/exeTest.cpp",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

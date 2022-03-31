@@ -64,3 +64,8 @@
 25480	25520	670383334	ScoreFollowing/scorefollowing.lib	bfca05542718a177
 25520	25895	670383334	MusicPreciseAnalysis/musicpreciseanalysis.lib	a366813003872b52
 25895	29720	670383339	Test.exe	aa3f4243db607e67
+2	1115	670396724	Shared/CMakeFiles/modules.dir/Constants.cpp.obj	9ec646fd73be702e
+1127	1227	670396724	Shared/modules.lib	5bd1c4941ccf82d3
+9	3623	670396726	MusicPreciseAnalysis/CMakeFiles/musicpreciseanalysis.dir/_musicPreciseAnalysisTest.cpp.obj	54f8c27952effdc6
+3639	3679	670396726	MusicPreciseAnalysis/musicpreciseanalysis.lib	a366813003872b52
+3679	3961	670396726	Test.exe	aa3f4243db607e67

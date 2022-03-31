@@ -1,15 +1,32 @@
 #include "pch.h"
 #include "Constants.h"
+#include "ConstantParams.h"
 
-DataAddress::DataAddress() :
-	DBFolder("C:/Users/brume/Documents/Project/DB/Research/"),
-	ResultFolder(DBFolder + "Results/"),
-	//TestSampleDB(DBFolder + "TestSampleDB/"),
-	MusicDB(DBFolder + "MusicDB/"),
-	MiscFolder(DBFolder + "Misc/")
-{
+//DataAddress::DataAddress() :
+//	DBFolder("C:/Users/brume/Documents/Project/DB/Research/"),
+//	ResultFolder(DBFolder + "Results/"),
+//	//TestSampleDB(DBFolder + "TestSampleDB/"),
+//	MusicDB(DBFolder + "MusicDB/"),
+//	MiscFolder(DBFolder + "Misc/")
+//{
+//	savefolder = ResultFolder;
+//}
+
+DataAddress::DataAddress(){
+	auto CP = std::make_shared<CParams>();
+	DBFolder = CP->getDBFolderPath();
+	ResultFolder = DBFolder + "Results/";
+	MusicDB = DBFolder + "MusicDB/";
+	MiscFolder = DBFolder + "Misc/";
 	savefolder = ResultFolder;
 }
+
+std::string db_Folder_path = "C:/Users/brume/Documents/Project/DB/Research/";
+std::string music_db_folder_path = "MusicDB";
+std::string crestmuse_db_name = "PEDBv2.2";
+std::string crestmuse_music_name = "bac-inv001-schif-g";
+std::string crestmuse_xml_name = "bac-inv001-wiener-p012-013.xml";
+
 
 bool DataAddress::setSaveFolder(const std::string sfname) {
 	savefolder += sfname;

@@ -69,8 +69,7 @@ public:
 	std::string getSavePath(const std::string fname) const;	// return savefolder + fname
 
 
-private:
-	const std::string DBFolder, ResultFolder, TestSampleDB, MusicDB, MiscFolder;
+	std::string DBFolder, ResultFolder, TestSampleDB, MusicDB, MiscFolder;
 	std::string savefolder;
 
 };

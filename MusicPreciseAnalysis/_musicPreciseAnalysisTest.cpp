@@ -5,6 +5,7 @@
 #include "../Shared/Constants.h"
 #include "../Shared/DataProc.h"
 #include "../Shared/passPyCpp.h"
+#include "../Shared/ConstantParams.h"
 
 
 void musicPreciseAnalysisTest() {
@@ -15,9 +16,14 @@ void musicPreciseAnalysisTest() {
     // Data
     DataAddress DA;
     DA.resetSaveFolder();		// set result folder (just in case)
-    std::string DBname = "PEDBv2.2";
-    std::string target = "bac-inv001-schif-g";
-    std::string score_xml = "bac-inv001-wiener-p012-013.xml";
+    auto CP = std::make_shared<CParams>();
+    auto cm = CP->getCrestmusePath();
+    //std::string DBname = "PEDBv2.2";
+    //std::string target = "bac-inv001-schif-g";
+    //std::string score_xml = "bac-inv001-wiener-p012-013.xml";
+    std::string DBname = cm[0];
+    std::string target = cm[1];
+    std::string score_xml = cm[2];
 
     // Parameters for score following (score, ex analysis and DTW)
     // Followings are set as default parameters

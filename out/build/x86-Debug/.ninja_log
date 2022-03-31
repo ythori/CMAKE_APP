@@ -67,3 +67,8 @@
 3	1016	670383194	MusicPreciseAnalysis/CMakeFiles/musicpreciseanalysis.dir/MusicPreciseAnalysis.cpp.obj	bc4e81eb19a76295
 1021	1060	670383194	MusicPreciseAnalysis/musicpreciseanalysis.lib	a366813003872b52
 1060	1302	670383194	Test.exe	aa3f4243db607e67
+3	1320	670396583	Shared/CMakeFiles/modules.dir/Constants.cpp.obj	164dcb4174ca237d
+1333	1445	670396583	Shared/modules.lib	5bd1c4941ccf82d3
+10	3909	670396586	MusicPreciseAnalysis/CMakeFiles/musicpreciseanalysis.dir/_musicPreciseAnalysisTest.cpp.obj	ce8026507c1dd6f6
+3938	3982	670396586	MusicPreciseAnalysis/musicpreciseanalysis.lib	a366813003872b52
+3983	4284	670396586	Test.exe	aa3f4243db607e67
