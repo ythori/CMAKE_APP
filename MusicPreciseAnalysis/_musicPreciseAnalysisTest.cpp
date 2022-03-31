@@ -18,6 +18,7 @@ void musicPreciseAnalysisTest() {
     DA.resetSaveFolder();		// set result folder (just in case)
     auto CP = std::make_shared<CParams>();
     auto cm = CP->getCrestmusePath();
+    //echo_v1(cm);
     //std::string DBname = "PEDBv2.2";
     //std::string target = "bac-inv001-schif-g";
     //std::string score_xml = "bac-inv001-wiener-p012-013.xml";

@@ -1,0 +1,13 @@
+# XML address
+# ex) "C:/Users/brume/Documents/Project/DB/Research/MusicDB/crestmuse/PEDBv2.2/bac-inv001-schif-g/bac-inv001-wiener-p012-013.xml"
+# 1:C:/Users/brume/Documents/Project/DB/Research/
+# 2:MusicDB
+# 3:PEDBv2.2
+# 4:bac-inv001-schif-g
+# 5:bac-inv001-wiener-p012-013.xml
+
+1:C:/Users/brume/Documents/Project/DB/Research/
+2:MusicDB
+3:PEDBv2.2
+4:bac-inv001-schif-g
+5:bac-inv001-wiener-p012-013.xml

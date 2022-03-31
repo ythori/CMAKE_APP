@@ -6,7 +6,7 @@ add_library(modules STATIC
         DataProc.cpp
         MathProc.cpp
 		Constants.cpp
-        ConstantParams.h
+        ConstantParams.cpp
         vec_op.h
         _moduleTest.cpp
         passPyCpp.cpp

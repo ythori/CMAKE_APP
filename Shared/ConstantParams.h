@@ -15,7 +15,6 @@ _/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/_/
 
 #include "pch.h"
 
-
 class CParams {
 public:
 	/* ================================
@@ -31,12 +30,8 @@ public:
 
 	================================ */
 
-	std::string db_folder_path = "C:/Users/brume/Documents/Project/DB/Research/";
-	std::string music_db_folder_path = "MusicDB";
-	std::string crestmuse_db_name = "PEDBv2.2";
-	std::string crestmuse_music_name = "bac-inv001-schif-g";
-	std::string crestmuse_xml_name = "bac-inv001-wiener-p012-013.xml";
 
+	CParams();
 
 
 	// Functions
@@ -49,6 +44,8 @@ public:
 		ret.emplace_back(crestmuse_xml_name);
 		return ret;
 	};
+
+	std::string db_folder_path, music_db_folder_path, crestmuse_db_name, crestmuse_music_name, crestmuse_xml_name;
 
 
 };
